@@ -29,3 +29,17 @@ cat3Button.addEventListener("click", () => {
     cat.remove()
     console.log("clicked the third cat")
 })
+
+
+function areaRectangle (length, width) {
+    return length * width
+}
+
+console.log(areaRectangle(5, 10))
+
+function divide (twelve, two) {
+    return twelve / two
+}
+
+console.log(divide(12, 2))
+
